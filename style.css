@@ -84,6 +84,20 @@ body.modo-oscuro{
     transform: translate(-3px);
 }
 
+.descripcion-ssd {
+    display: flex;
+    flex-direction: column; /* Apila el título, el párrafo y la imagen verticalmente */
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Permite que el contenedor use el ancho disponible en lugar de 50px */
+    padding: 20px;
+}
+
+.descripcion-ssd img {
+    max-width: 100%; /* Evita que la imagen sea más ancha que la pantalla */
+    height: auto; /* Mantiene las proporciones originales */
+    width: 700px; /* Ajusta este número según qué tan grande quieras que se vea el SSD */
+}
 /* --- FOOTER --- */
 footer {
     text-align: center;
